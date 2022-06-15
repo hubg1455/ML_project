@@ -20,3 +20,7 @@ pip install -r requirements.txt
 '''
 git commit -m "message"
 '''
+
+'''
+git push origin main
+'''

@@ -24,3 +24,8 @@ git commit -m "message"
 '''
 git push origin main
 '''
+
+'''
+HEROKU_EMAIL=lvishisht@gmail.com
+HEROKU_APP_NAME=ml-project-starting
+'''

@@ -29,3 +29,14 @@ git push origin main
 HEROKU_EMAIL=lvishisht@gmail.com
 HEROKU_APP_NAME=ml-project-starting
 '''
+
+'''
+python setup.py install
+'''
+
+'''
+send changing to github
+git add .
+git comment -m 'updated'
+git push origin main
+'''

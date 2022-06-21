@@ -40,3 +40,8 @@ git add .
 git comment -m 'updated'
 git push origin main
 '''
+
+'''
+-e . check all local packages which we created that try to install
+pip install -e .
+'''

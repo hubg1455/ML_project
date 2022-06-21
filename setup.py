@@ -1,12 +1,12 @@
 from distutils.log import debug
 from xml.etree.ElementTree import VERSION
-from setuptools import setup
+from setuptools import setup,find_packages
 from typing import List
 
 
 #Declaring variables for setup function
 PROJECT_NAME="housing predictor"
-VERSION="0.0.1"
+VERSION="0.0.3"
 AUTHOR="LALITA"
 DESCRIPTION="This is first Machine leaning project"
 PACKAGES=['housing']
@@ -21,7 +21,7 @@ def get_requirements_list()->List[str]:
     name of libraries mentioned in requirements.txt file 
     '''
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove('-e .')
 
 
 setup(
@@ -29,7 +29,7 @@ name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description=DESCRIPTION,
-packages=PACKAGES,
+packages=find_packages(),
 install_requires=get_requirements_list()
 
 )

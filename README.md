@@ -45,3 +45,14 @@ git push origin main
 -e . check all local packages which we created that try to install
 pip install -e .
 '''
+
+'''
+install ipykernel
+'''
+'''
+pip install ipykernel
+'''
+
+'''
+pip install pyYAML
+'''

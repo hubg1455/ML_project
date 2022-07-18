@@ -1,4 +1,4 @@
-from logging import exception
+
 import sys
 from flask import Flask
 from housing.logger import logging

@@ -1,8 +1,10 @@
 
 from datetime import datetime
 import os
-from this import d
-from tkinter import Y
+
+
+def get_current_time_stamp():
+    return f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
 
 ROOT_DIR= os.getcwd()   # to get current working directory
 

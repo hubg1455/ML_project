@@ -2,7 +2,7 @@ import sys
 
 from housing.entity.config_entity import DataIngestionConfig, DataTransformationConfig,DataValidationConfig, \
 ModelEvaluationConfig, ModelPusherConfig, ModelTrainerConfig, TrainingPiplelineConfig
-import os,sys
+import os
 from housing.util.util import read_yaml_file
 from housing.constant import *
 from housing.logger import logging
